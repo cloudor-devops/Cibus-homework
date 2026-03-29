@@ -37,6 +37,7 @@
 ```bash
 minikube start --driver=docker
 minikube addons enable ingress
+minikube addons enable metrics-server
 ```
 
 ### 2. Build the Application Image
